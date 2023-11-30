@@ -1,0 +1,65 @@
+/* Form styling */
+.form-title {
+    color: #2a9d8f;
+    text-align: center;
+}
+
+.edit-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.edit-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Input styling */
+.edit-form input[type="text"],
+.edit-form input[type="date"],
+.edit-form input[type="file"],
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Select styling */
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+.edit-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Hover effect for the submit button */
+.edit-form button:hover {
+    background-color: #45a049;
+}

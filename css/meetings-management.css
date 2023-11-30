@@ -1,0 +1,145 @@
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.page-title {
+    color: #2a9d8f;
+    text-align: center;
+}
+
+/* List styling */
+.meetings-list {
+    list-style: none;
+    padding: 0;
+}
+
+.meeting-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Meeting info styling */
+.meeting-info {
+    margin: 0;
+    font-size: 16px;
+}
+
+.info-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Button styling */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.approve-button,
+.delete-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff0000;
+}
+
+/* Form styling */
+.edit-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+.edit-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Input styling */
+.edit-form input[type="date"],
+.edit-form input[type="time"],
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Select styling */
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit and cancel button styling */
+.edit-form button,
+.edit-form a {
+    display: inline-block;
+    width: 48%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.edit-form button {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.edit-form a {
+    background-color: #f44336;
+    color: #fff;
+}
+
+/* Hover effect for buttons */
+.edit-form button:hover,
+.edit-form a:hover {
+    opacity: 0.8;
+}
+
+/* Table styling */
+.meeting-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.meeting-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}

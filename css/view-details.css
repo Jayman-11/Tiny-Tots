@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #264653;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2a9d8f;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table th,
+.info-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.info-table th {
+    background-color: #2a9d8f;
+    color: #ffffff;
+}
+
+.info-table thead th {
+    background-color: #264653;
+    color: #ffffff;
+}
+
+.info-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.info-table th:last-child,
+.info-table td:last-child {
+    border-right: none;
+}
+
+/* Styling for the profile picture */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.profile-picture img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Button styles */
+.buttons.green {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.buttons.red {
+    background-color: #ff0000;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttons:hover {
+    opacity: 0.8;
+}
+
+/* Style for the form container */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form labels */
+.form-container p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the select input */
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style for the submit button */
+.form-container .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+.form-container .submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the cancel button */
+.form-container .cancel-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Hover effect for the cancel button */
+.form-container .cancel-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Style for the form container */
+.delete-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form labels */
+.delete-form-container p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the delete button */
+.delete-form-container button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the delete button */
+.delete-form-container button:hover {
+    background-color: #d32f2f;
+}
+
+/* Style for the cancel button */
+.delete-form-container a {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Hover effect for the cancel button */
+.delete-form-container a:hover {
+    background-color: #45a049;
+}
